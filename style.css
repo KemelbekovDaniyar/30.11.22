@@ -1,5 +1,7 @@
+
 * {
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
 }
 body {
   margin: 0;
@@ -67,4 +69,10 @@ body {
 }
 .card .card-content {
   padding: 10px 15px;
+}
+.card.card-horizonal {
+  display: flex;
+}
+.card.card-horizonal .card-image {
+  width: 30%;
 }
