@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 * {
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
@@ -6,6 +6,12 @@
 body {
   margin: 0;
   background-image: url(./331483-panda-jungles-cigars-tuxedo.jpg);
+  font-family: 'Bebas Neue', cursive;
+}
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px rgb(0, 255, 0);
 }
 .container {
   /*задать ширину*/
@@ -40,7 +46,6 @@ body {
   flex: 16.6% 1 1;
   background-color: green;
   margin-bottom: 15px;
-  color: white;
 }
 .col-5 {
   flex: 41.6% 1 1;
@@ -64,13 +69,14 @@ body {
   flex: 91.6% 1 1;
 }
 .card {
-  background-color: antiquewhite;
+  background-image: url(./1612565099_159-p-yarkie-krasivie-zelenie-foni-179.jpg);
   border: 1px solid black;
   box-shadow: 0 0 10px 5px black;
   margin-bottom: 15px;
+  color: rgb(65, 255, 65);
 }
 .card:hover {
-  transform: rotate(-3deg) scale(1.20);
+  transform: rotate(3deg) scale(1.10);
   background-color: rgba(0, 255, 34, 0.774);
   color: white;
 }
