@@ -5,11 +5,13 @@
 }
 body {
   margin: 0;
+  background-image: url(./331483-panda-jungles-cigars-tuxedo.jpg);
 }
 .container {
   /*задать ширину*/
   max-width: 980px;
   margin: 0 auto;
+  background-color: rgba(0, 255, 0, 0.486);
 }
 .row {
   /*строка*/
@@ -36,6 +38,9 @@ body {
 }
 .col-2 {
   flex: 16.6% 1 1;
+  background-color: green;
+  margin-bottom: 15px;
+  color: white;
 }
 .col-5 {
   flex: 41.6% 1 1;
@@ -63,6 +68,11 @@ body {
   border: 1px solid black;
   box-shadow: 0 0 10px 5px black;
   margin-bottom: 15px;
+}
+.card:hover {
+  transform: rotate(-3deg) scale(1.20);
+  background-color: rgba(0, 255, 34, 0.774);
+  color: white;
 }
 .card .card-image {
   width: 100%;
